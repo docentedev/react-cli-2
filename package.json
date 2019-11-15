@@ -1,6 +1,6 @@
 {
     "name": "react-cli-2",
-    "version": "1.0.50",
+    "version": "1.0.51",
     "description": "automated task React",
     "main": "index.js",
     "scripts": {
@@ -12,5 +12,10 @@
     "preferGlobal": true,
     "author": "claudio.dcv@gmail.com",
     "license": "MIT",
-    "keywords": ["react", "reactjs", "es6", "cli"]
+    "keywords": ["react", "reactjs", "es6", "cli"],
+    "homepage": "https://github.com/docentedev/react-cli-2",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/docentedev/react-cli-2.git"
+    }
 }
