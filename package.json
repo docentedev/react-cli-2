@@ -1,0 +1,16 @@
+{
+    "name": "react-cli-2",
+    "version": "1.0.48",
+    "description": "automated task React",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "react-cli-2": "./bin/cli-global.js"
+    },
+    "preferGlobal": true,
+    "author": "claudio.dcv@gmail.com",
+    "license": "MIT",
+    "keywords": ["react", "reactjs", "es6", "cli"]
+}
