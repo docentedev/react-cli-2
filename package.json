@@ -1,6 +1,6 @@
 {
     "name": "react-cli-2",
-    "version": "1.0.51",
+    "version": "1.0.53",
     "description": "automated task React",
     "main": "index.js",
     "scripts": {

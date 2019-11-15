@@ -4,6 +4,10 @@ Simple library without dependencies
 
 Tested in NOdeJS v12.13.0
 
+`npm i -g react-cli-2`
+
+url [npm](https://www.npmjs.com/package/react-cli-2)
+
 ## 🤘 Features
 
 ### Create Component
