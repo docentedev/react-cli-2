@@ -1,8 +1,8 @@
 # React Cli 2 🔥🔥🔥
 
-Simple library without dependencies
+Easy library without dependencies
 
-Tested in NOdeJS v12.13.0
+Tested in NodeJS v12.13.0
 
 `npm i -g react-cli-2`
 
@@ -11,7 +11,7 @@ url [npm](https://www.npmjs.com/package/react-cli-2)
 ## 🤘 Features
 
 ### Create Component
-> write the name with kebak-case style
+> write the name with kebab-case style
 
 - cmd: `react-cli-2 create component <name>`
 - cmd (short): `react-cli-2 c c <name>`
@@ -53,7 +53,7 @@ url [npm](https://www.npmjs.com/package/react-cli-2)
 - cmd (short): `react-cli-2 c mr <name>:<initial-action>`
 
 #### Example
-`react-cli-2 create module-redux user:find-all`
+- cmd: `react-cli-2 create module-redux user:find-all`
 
 #### Produce
 ```
@@ -62,4 +62,21 @@ url [npm](https://www.npmjs.com/package/react-cli-2)
     📄 reducer.findAll.js // reducer with initlaState and 3 case (start/success/error)
     📄 actions.js // Actions Sync and Async
     📄 index.js // import all reducer and export combine reducers
+```
+
+### Start Project
+
+#### Example
+- cmd: `react-cli-2 initialize react-redux-reactrouter`
+- cmd (short): `react-cli-2 i rrr`
+
+#### Produce
+```
+📄 routes.js // conent routes const
+📁 containers // added views here
+📁 components // added components here
+📁 store
+    📄 index.js // content store
+    📁 modules // added modules redux here
+        📄 index.js // rootReducer
 ```
